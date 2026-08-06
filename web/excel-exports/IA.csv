@@ -1,0 +1,4 @@
+﻿Marca,Categoria,Servicio,Subcategoria,Nombre,Descripcion,Precio,Moneda,Caracteristicas
+"DOOQ Enterprise","IA","IA Starter","IA Starter","IA Starter","Soluciones de entrada para automatización","$2.500.000",COP,"Chatbots multicanal | Automatización básica | Modelos LLM estándar | RPA de tareas repetitivas"
+"DOOQ Enterprise","IA","IA Business","IA Business","IA Business","Analítica predictiva y asistentes corporativos","$7.500.000",COP,"Analítica predictiva | Automatización documental OCR | Agentes inteligentes | Asistentes de ventas"
+"DOOQ Enterprise","IA","IA Enterprise","IA Enterprise","IA Enterprise","Sistemas IA personalizados con modelos ajustados","Desde $20.000.000",COP,"Fine-tuning de modelos LLM | RAG con datos propios | Pipeline IA de punta a punta | Integración en tiempo real"

@@ -1,0 +1,4 @@
+﻿Marca,Categoria,Servicio,Subcategoria,Nombre,Descripcion,Precio,Moneda,Caracteristicas
+"DOOQ Enterprise","Transporte Q-Cargo","Mensajería Urbana Q-Cargo","Mensajería","Mensajería Urbana Q-Cargo","Envío urgente de documentación o repuestos","$25.000",COP,"Entrega en menos de 2 horas | Seguimiento GPS en tiempo real | Firma digital de entrega"
+"DOOQ Enterprise","Transporte Q-Cargo","Q-Cargo Van Local","Van Local","Q-Cargo Van Local","Transporte de carga liviana urbana","$120.000",COP,"Vehículo van dedicado | Capacidad hasta 800 kg | Conductor profesional | Carga asegurada"
+"DOOQ Enterprise","Transporte Q-Cargo","Q-Cargo Van Metropolitana","Van Metropolitana","Q-Cargo Van Metropolitana","Servicio para zonas conurbanas y municipios cercanos","$180.000",COP,"Distancias ampliadas | Hasta 1.200 kg de carga | Logística programada | Monitoreo 24/7"

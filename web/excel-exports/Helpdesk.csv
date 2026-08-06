@@ -1,0 +1,6 @@
+﻿Marca,Categoria,Servicio,Subcategoria,Nombre,Descripcion,Precio,Moneda,Caracteristicas
+"DOOQ Enterprise","Helpdesk","Ticket Básico","Ticket Básico","Ticket Básico","Resolución de incidencias leves","$50.000",COP,"Tiempo de respuesta <= 24 horas | Q-Task asignado | Atención remota"
+"DOOQ Enterprise","Helpdesk","Ticket Prioritario","Ticket Prioritario","Ticket Prioritario","Resolución con atención prioritaria","$90.000",COP,"Tiempo de respuesta <= 12 horas | Ingeniero asignado | Soporte teléfono / chat"
+"DOOQ Enterprise","Helpdesk","Ticket Urgente","Ticket Urgente","Ticket Urgente","Atención rápida para problemas operativos","$180.000",COP,"Tiempo de respuesta <= 4 horas | Asistencia remota inmediata | Escalamiento directo"
+"DOOQ Enterprise","Helpdesk","Ticket Crítico (Falla general)","Ticket Crítico","Ticket Crítico (Falla general)","Interrupción crítica del servicio","$350.000",COP,"Tiempo de respuesta <= 2 horas | Atención 24/7 inmediata | Despliegue presencial si aplica"
+"DOOQ Enterprise","Helpdesk","Mesa de Ayuda Outsourcing","Mesa de ayuda mensual","Mesa de Ayuda Outsourcing","Gestión integral del departamento de TI","Desde $950.000",COP,"Soporte ilimitado bajo SLA | Administración de usuarios | Gestión de activos informáticos | Informes mensuales de estado"

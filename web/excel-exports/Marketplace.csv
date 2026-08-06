@@ -1,0 +1,5 @@
+﻿Marca,Categoria,Servicio,Subcategoria,Nombre,Descripcion,Precio,Moneda,Caracteristicas
+"DOOQ Enterprise","Marketplace","Registro Gratuito","Free","Registro Gratuito","Acceso básico al marketplace de aliados DOOQ","Gratis",COP,"Perfil en hub.dooq.dev | Recepción de ofertas"
+"DOOQ Enterprise","Marketplace","Plan Silver","Silver","Plan Silver","Mayor visibilidad local para tu negocio","$59.900",COP,"Mayor visibilidad local | Insignia verificado"
+"DOOQ Enterprise","Marketplace","Plan Gold","Gold","Plan Gold","Prioridad en asignación de Q-Tasks y soporte dedicado","$129.900",COP,"Prioridad en asignación de Q-Tasks | Soporte 24/7"
+"DOOQ Enterprise","Marketplace","Plan Platinum","Platinum","Plan Platinum","Visibilidad máxima y aliado certificado DOOQ","$249.900",COP,"Visibilidad máxima en hub.dooq.dev | Insignia de aliado certificado DOOQ | Prioridad absoluta en licitaciones | Perfil destacado & Estadísticas avanzadas"
