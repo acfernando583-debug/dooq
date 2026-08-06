@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+﻿import { motion } from "framer-motion";
 import FadeIn from "./FadeIn";
 import {
   catalogData as planikaCatalogData,
@@ -9,6 +9,7 @@ const planikaColor = "#8B5CF6";
 
 const planikaItems = planikaCatalogData.filter((item) => item.category === "Planika");
 
+import planikaLogo from "../assets/logos/planika-logo.svg";
 export default function PlanikaLanding() {
   return (
     <section id="planika" className="bg-[#0C0C0C] relative overflow-hidden py-20 sm:py-24 md:py-32">
@@ -279,3 +280,4 @@ export default function PlanikaLanding() {
     </section>
   );
 }
+

@@ -1,4 +1,4 @@
-import { motion, useScroll, useTransform } from "framer-motion";
+﻿import { motion, useScroll, useTransform } from "framer-motion";
 import FadeIn from "./FadeIn";
 import {
   paymentMethods,
@@ -11,7 +11,7 @@ import {
   Check, ArrowRight, Shield, CreditCard, Award, Percent,
   Sparkles
 } from "lucide-react";
-
+import dooqLogo from "../assets/logos/dooq-logo.svg";
 export default function ContactForm() {
   const { scrollYProgress } = useScroll();
   const parallaxBg = useTransform(scrollYProgress, [0.8, 1], ["0%", "-20%"]);
@@ -402,3 +402,4 @@ export default function ContactForm() {
     </>
   );
 }
+

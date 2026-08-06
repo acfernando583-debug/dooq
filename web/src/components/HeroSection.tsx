@@ -1,7 +1,8 @@
-import { motion, useScroll, useTransform } from "framer-motion";
+﻿import { motion, useScroll, useTransform } from "framer-motion";
 import Magnet from "./Magnet";
 import DooqLogo from "./DooqLogo";
 
+import dooqHeadImg from "../assets/img/Dooq Head 2.png";
 export default function HeroSection() {
   const { scrollYProgress } = useScroll();
   const parallaxBg = useTransform(scrollYProgress, [0.8, 1], ["0%", "-20%"]);
@@ -45,7 +46,7 @@ export default function HeroSection() {
       >
         <Magnet padding={150} strength={3}>
           <img
-            src="https://shrug-person-78902957.figma.site/_components/v2/d24c01ad3a56fc65e942a1f501eb73db42d7cf9a/Rectangle_40443.81459862.png"
+            src={dooqHeadImg}
             alt="DOOQ Portrait"
             className="w-full h-auto object-contain"
             loading="eager"

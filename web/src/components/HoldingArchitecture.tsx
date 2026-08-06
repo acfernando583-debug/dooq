@@ -1,7 +1,12 @@
-import { motion } from "framer-motion";
+﻿import { motion } from "framer-motion";
 import FadeIn from "./FadeIn";
 import { ExternalLink } from "lucide-react";
 import { holdingPillars } from "../data/catalog";
+import dooqLogo from "../assets/logos/dooq-logo.svg";
+import zennonLogo from "../assets/logos/zennon-logo.svg";
+import bfriendsLogo from "../assets/logos/kyboos-logo.svg";
+import planikaLogo from "../assets/logos/planika-logo.svg";
+const logoMap: Record<string, string> = { dooq: dooqLogo, zennon: zennonLogo, bfriends: bfriendsLogo, planika: planikaLogo };
 
 function PillarCard({ pillar, index }: { pillar: typeof holdingPillars[0]; index: number }) {
   return (
@@ -23,7 +28,7 @@ function PillarCard({ pillar, index }: { pillar: typeof holdingPillars[0]; index
           }}
         />
 
-        {/* Number with glow */}
+        {/* Logo with glow */}
         <div className="relative mb-6">
           <div
             className="w-16 h-16 rounded-2xl flex items-center justify-center relative"
@@ -32,12 +37,11 @@ function PillarCard({ pillar, index }: { pillar: typeof holdingPillars[0]; index
               border: `1px solid ${pillar.color}30`,
             }}
           >
-            <span
-              className="text-3xl font-black relative z-10"
-              style={{ color: pillar.color }}
-            >
-              {String(index + 1).padStart(2, "0")}
-            </span>
+            <img
+              src={logoMap[pillar.logo]}
+              alt={pillar.name}
+              className="w-10 h-10 relative z-10 object-contain"
+            />
             <motion.div
               className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
               style={{

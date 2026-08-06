@@ -1,7 +1,8 @@
-import { motion } from "framer-motion";
+﻿import { motion } from "framer-motion";
 import FadeIn from "./FadeIn";
 import { zennonPlans } from "../data/catalog";
 import { ArrowRight } from "lucide-react";
+import zennonLogo from "../assets/logos/zennon-logo.svg";
 
 const zennonColor = "#10B981";
 
@@ -35,6 +36,7 @@ export default function ZennOnSection() {
               <span className="w-2 h-2 rounded-full bg-emerald-400/60" />
               <span>Productividad & Talento Local</span>
             </span>
+            <img src={zennonLogo} alt="ZennOn" className="w-24 h-auto mx-auto mb-4" />
             <h2
               className="hero-heading font-black uppercase leading-none tracking-tight mb-4"
               style={{ fontSize: "clamp(3rem, 12vw, 160px)" }}
@@ -143,3 +145,4 @@ export default function ZennOnSection() {
     </section>
   );
 }
+

@@ -1,7 +1,8 @@
-import { motion } from "framer-motion";
+﻿import { motion } from "framer-motion";
 import FadeIn from "./FadeIn";
 import AnimatedText from "./AnimatedText";
 import { Cpu, Cloud, Shield, PenTool } from "lucide-react";
+import dooqLogo from "../assets/logos/dooq-logo.svg";
 
 const serviceIcons = [
   {
@@ -90,6 +91,7 @@ export default function AboutSection() {
         <FadeIn delay={0} y={40}>
           <h2 className="hero-heading font-black uppercase leading-none tracking-tight text-center"
             style={{ fontSize: "clamp(3rem, 12vw, 160px)" }}>
+          <img src={dooqLogo} alt="DOOQ" className="w-20 h-auto mx-auto mb-4" />
             Acerca De
           </h2>
         </FadeIn>
@@ -107,3 +109,4 @@ export default function AboutSection() {
     </section>
   );
 }
+

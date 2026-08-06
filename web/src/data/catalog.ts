@@ -1,4 +1,4 @@
-export interface CatalogItem {
+﻿export interface CatalogItem {
  highlight?: boolean;
  id: string;
  category: string;
@@ -56,7 +56,8 @@ export const holdingPillars = [
   color: "#2563EB",
   gradient: "from-blue-600 to-indigo-600",
   description: "Tecnología Empresarial B2B: Software a medida, IA corporativa, Cloud, Bases de Datos, Hardware, Redes, Helpdesk, Diseño, Marketing, Ciberseguridad, Marketplace de servicios y Logística Q-Cargo.",
-  url: "https://enterprise.dooq.dev"
+   url: "https://enterprise.dooq.dev",
+   logo: "dooq"
  },
  {
   id: "zennon",
@@ -66,7 +67,8 @@ export const holdingPillars = [
   color: "#10B981",
   gradient: "from-emerald-500 to-teal-600",
   description: "Red inteligente de oportunidades hiperlocales. Geolocalización (ZenMap, ZenNear), gestión personal (ZenPlanner, ZenTask), IA asistida (ZenAI), CRM para emprendedores y marketplace de productos digitales.",
-  url: "https://zennon.dooq.dev"
+   url: "https://zennon.dooq.dev",
+   logo: "zennon"
  },
  {
   id: "bfriends",
@@ -76,7 +78,8 @@ export const holdingPillars = [
   color: "#F43F5E",
   gradient: "from-rose-500 to-violet-600",
   description: "Ecosistema de salud mental, apoyo emocional, diario de ánimo (Mood AI), terapia virtual con especialistas y programa escolar integral (BFriends Edu) para instituciones educativas.",
-  url: "https://bfriends.dooq.dev"
+   url: "https://bfriends.dooq.dev",
+   logo: "bfriends"
  },
  {
   id: "planika",
@@ -86,7 +89,8 @@ export const holdingPillars = [
   color: "#8B5CF6",
   gradient: "from-violet-500 to-purple-600",
   description: "Motor de gobernanza curricular CKGE y generador de mallas curriculares profesionales para instituciones educativas de Colombia. Validación documental, trazabilidad, versionamiento y auditoría curricular respaldada por inteligencia artificial.",
-  url: "https://planika.dooq.dev"
+   url: "https://planika.dooq.dev",
+   logo: "planika"
  }
 ];
 
@@ -1195,3 +1199,5 @@ export const serviceCategories = [
  { name: "Q-Packs", icon: "package", url: "", items: 5 },
  { name: "Planika", icon: "book", url: "planika.dooq.dev", items: 5 }
 ];
+
+
