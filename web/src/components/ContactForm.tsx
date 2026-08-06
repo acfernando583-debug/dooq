@@ -371,7 +371,7 @@ export default function ContactForm() {
               />
 
               <motion.a
-                href="https://wa.me/573000000000?text=Hola%20DOOQ,%20deseo%20una%20cotizaci%C3%B3n"
+                href="https://wa.me/573118893722?text=Hola%20DOOQ,%20deseo%20una%20cotizaci%C3%B3n"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative bg-white text-[#0C0C0C] font-semibold rounded-full py-4 px-8 sm:px-10 inline-flex items-center justify-center gap-2 hover:bg-white/90 transition-colors"
@@ -402,4 +402,5 @@ export default function ContactForm() {
     </>
   );
 }
+
 

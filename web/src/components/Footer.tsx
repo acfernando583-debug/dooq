@@ -1,4 +1,4 @@
-import { motion, useScroll, useTransform } from "framer-motion";
+﻿import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowUp } from "lucide-react";
 import DooqLogo from "./DooqLogo";
 
@@ -20,7 +20,7 @@ export default function Footer() {
               <DooqLogo variant="white" size="lg" />
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-sm mb-6">
-              Technology Holding + Marketplace + Ecosistema Digital. Conectando software, inteligencia artificial, infraestructura, creatividad, salud emocional y logística hiperlocal en Colombia.
+              Technology Holding + Marketplace + Ecosistema Digital. Conectando software, inteligencia artificial, infraestructura, creatividad, salud emocional y logÃ­stica hiperlocal en Colombia.
             </p>
           </div>
 
@@ -45,17 +45,17 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5 text-sm text-slate-400 font-medium">
               <li><a href="mailto:contacto@dooq.dev" className="hover:text-dooq-light transition-colors">contacto@dooq.dev</a></li>
-              <li><a href="tel:+573000000000" className="hover:text-dooq-light transition-colors">+57 300 000 0000</a></li>
-              <li><span className="text-slate-500">Bogotá, Colombia</span></li>
+              <li><a href="tel:+573118893722" className="hover:text-dooq-light transition-colors">+57 311 889 3722</a></li>
+              <li><span className="text-slate-500">BogotÃ¡, Colombia</span></li>
             </ul>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 font-medium">
-          <p>© 2026 DOOQ Technology Holding. Todos los derechos reservados.</p>
+          <p>Â© 2026 DOOQ Technology Holding. Todos los derechos reservados.</p>
           <div className="flex items-center gap-6">
-            <a href="#terminos" className="hover:text-dooq-light transition-colors">Términos</a>
+            <a href="#terminos" className="hover:text-dooq-light transition-colors">TÃ©rminos</a>
             <a href="#terminos" className="hover:text-dooq-light transition-colors">Privacidad</a>
             <a href="#terminos" className="hover:text-dooq-light transition-colors">Cookies</a>
           </div>
@@ -72,3 +72,4 @@ export default function Footer() {
     </footer>
   );
 }
+
