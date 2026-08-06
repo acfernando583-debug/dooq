@@ -1,0 +1,4 @@
+﻿Marca,Categoria,Servicio,Subcategoria,Nombre,Descripcion,Precio,Moneda,Caracteristicas
+"DOOQ Enterprise","Cloud","Cloud Setup","Cloud Setup","Cloud Setup","Configuración inicial y migración limpia","$2.800.000",COP,"Migración a AWS / Azure / GCP | Dockerización de apps | SSL & Dominios | Backups automáticos"
+"DOOQ Enterprise","Cloud","Cloud Business","Cloud Business","Cloud Business","Arquitectura escalable para negocios en crecimiento","$6.500.000",COP,"Clusters de Kubernetes | Auto-scaling infra | CDNs globales | Monitoreo CloudWatch / Datadog"
+"DOOQ Enterprise","Cloud","Cloud Enterprise","Cloud Enterprise","Cloud Enterprise","Infraestructura multi-nube redundante","Desde $18.000.000",COP,"Multi-region failover | Arquitectura Zero Trust | Cumplimiento ISO / SOC2 | Soporte dedicado DevOps"

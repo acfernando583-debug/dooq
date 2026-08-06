@@ -1,0 +1,5 @@
+﻿Marca,Categoria,Servicio,Subcategoria,Nombre,Descripcion,Precio,Moneda,Caracteristicas
+"DOOQ Enterprise","Hardware","Mantenimiento Preventivo PC","Mantenimiento PC","Mantenimiento Preventivo PC","Limpieza física, pasta térmica y optimización","$120.000",COP,"Limpieza interna de componentes | Cambio de pasta térmica | Optimización de S.O. | Diagnóstico térmico"
+"DOOQ Enterprise","Hardware","Servidores & Storage","Servidor","Servidores & Storage","Mantenimiento e instalación de racks y servidores","Desde $450.000",COP,"Configuración RAID | Limpieza de chasis rack | Actualización de Firmware | Sustitución de fuentes/discos"
+"DOOQ Enterprise","Hardware","Diagnóstico Especializado","Diagnóstico","Diagnóstico Especializado","Identificación precisa de fallas de hardware","$80.000",COP,"Test de tarjeta madre | Análisis de memoria RAM | Diagnóstico de disco | Informe técnico escrito"
+"DOOQ Enterprise","Hardware","Instalación de Estaciones","Instalación","Instalación de Estaciones","Ensamble y puesta a punto de puestos de trabajo","Desde $180.000",COP,"Montaje físico | Configuración de perfil | Cableado de puesto | Pruebas de periféricos"

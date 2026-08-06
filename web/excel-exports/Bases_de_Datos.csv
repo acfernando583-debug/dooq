@@ -1,0 +1,4 @@
+﻿Marca,Categoria,Servicio,Subcategoria,Nombre,Descripcion,Precio,Moneda,Caracteristicas
+"DOOQ Enterprise","Bases de Datos","Optimización & Indexación","Optimización","Optimización & Indexación","Indexación, afinación de queries y tuning","Desde $1.500.000",COP,"MySQL | PostgreSQL | SQL Server | Oracle | MongoDB | MariaDB"
+"DOOQ Enterprise","Bases de Datos","Migración de Base de Datos","Migración","Migración de Base de Datos","Migración segura sin pérdida de servicio","Desde $3.500.000",COP,"Zero downtime migration | Sanitización de datos | Validación de esquema | Pruebas de carga"
+"DOOQ Enterprise","Bases de Datos","Alta Disponibilidad (Replicación)","Alta disponibilidad","Alta Disponibilidad (Replicación)","Arquitecturas Master-Replica y Clusters","Desde $7.000.000",COP,"Replicación síncrona | Failover automático | Recuperación ante desastres (DRP) | Monitoreo 24/7"
